@@ -61,6 +61,13 @@ body {
   color: var(--dark-blue);
 }
 
+/* .questions-wrapper {
+  height: 285px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rebeccapurple var(--soft-blue);
+} */
+
 .faq {
   border-bottom: solid 1px var(--light-grayish-blue);
   min-height: 34px;
@@ -103,4 +110,47 @@ body {
 
 .selected .question img {
   transform: rotate(180deg);
+}
+
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    max-width: 920px;
+    height: 509px;
+    background-image: url("./images/illustration-woman-online-desktop.svg"),
+      url("./images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left -75px center, left -565px bottom -148px;
+    background-size: 50% auto, auto;
+  }
+
+  .card h1 {
+    margin: auto;
+    text-align: start;
+  }
+
+  .hero {
+    position: relative;
+    background-image: url("./images/illustration-box-desktop.svg");
+    width: 50%;
+    height: 359px;
+    left: -95px;
+    top: 5px;
+    background-size: auto;
+    background-position: left -20px bottom 38px;
+  }
+
+  main {
+    max-width: 350px;
+    width: 50%;
+    margin-right: 3rem;
+  }
+
+  .question,
+  .answer {
+    max-width: 350px;
+  }
 }
