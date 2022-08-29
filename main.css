@@ -92,6 +92,10 @@ body {
   margin-top: 1rem;
 }
 
+.question span:hover{
+  color: var(--soft-red);
+}
+
 .answer {
   margin: 12px auto;
   font-size: 12px;
