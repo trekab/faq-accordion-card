@@ -61,12 +61,12 @@ body {
   color: var(--dark-blue);
 }
 
-/* .questions-wrapper {
+.questions-wrapper {
   height: 285px;
-  overflow-y: scroll;
+  overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: rebeccapurple var(--soft-blue);
-} */
+}
 
 .faq {
   border-bottom: solid 1px var(--light-grayish-blue);
@@ -92,7 +92,7 @@ body {
   margin-top: 1rem;
 }
 
-.question span:hover{
+.question span:hover {
   color: var(--soft-red);
 }
 
